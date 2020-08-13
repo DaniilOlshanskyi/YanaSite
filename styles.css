@@ -46,7 +46,7 @@ a:active {color: white; text-decoration: none;}    /* selected link */
   /*height: 10%;*/
   padding-top: 40px;
   color: white;
-  font-family: "Lucida Grande";
+  font-family: "Trebuchet";
   font-size: 25px;
   text-align: center;
 }
@@ -73,6 +73,10 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	width: 105px
 }
 
+.main_name {
+	font-size: 80px;
+	margin-top: 60px;
+}
 
 #logo {
 	text-align: center;
