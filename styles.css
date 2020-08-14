@@ -81,8 +81,54 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	text-align: center;
 }
 
+
+.grey_block {
+	background-color: #f7f7f7;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 450px;
+}
+
+.small_white_block {
+	background-color: white;
+	width: 35%;
+	height: 350px;
+	margin-left: 23%;
+	margin-top: 50px;
+	float: left;
+	position: absolute;
+	z-index:1;
+}
+
+.blue_text {
+	color: blue;
+	font-size: 40px;
+	font-family: "Trebuchet";
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.bio_text {
+	padding: 50px 0 0 50px;
+}
+
+.big_self {
+	margin-left: 50%;
+	position: absolute;
+	z-index:0;
+}
+
 @media only screen and (max-width: 768px) {
     body {
         font-size: 87.5%;
     }
+	.big_self {
+		position:relative;
+	}
+	
+	.small_white_block {
+		float:none;
+		position:relative;
+	}
 }
