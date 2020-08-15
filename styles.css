@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
-    /*background-image: url(cello.png);*/
     background-size: 10%;
     font-family: "Lucida Grande", "Helvetica Neue", Roboto, "Droid Sans", Prelude, Helvetica, Arial, sans-serif;
     font-size: 100%;
@@ -86,7 +85,7 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	background-color: #f7f7f7;
 	width: 100%;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	height: 450px;
 }
 
@@ -94,29 +93,36 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	background-color: white;
 	width: 35%;
 	height: 350px;
-	margin-left: 23%;
+	/*margin-left: 23%;*/
+	margin-left: 18vw;
 	margin-top: 50px;
 	float: left;
 	position: absolute;
 	z-index:1;
+	padding: 50px 50px 0 50px;
 }
 
 .blue_text {
 	color: blue;
 	font-size: 40px;
 	font-family: "Trebuchet";
-	padding-left: 50px;
-	padding-top: 50px;
 }
 
 .bio_text {
-	padding: 50px 0 0 50px;
+	margin: 50px 0 0 0;
 }
 
 .big_self {
-	margin-left: 50%;
+	margin-left: 55vw;
+	margin-top: 25px;
 	position: absolute;
 	z-index:0;
+	/*
+	height: 27vw;
+	width: 26vw;
+	*/
+	height: 450px;
+	width: 450px;
 }
 
 .white_block {
@@ -128,18 +134,45 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 
 .image_text_block {
 	margin-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-@media only screen and (max-width: 768px) {
+.image_in_block {
+	float: left;
+	height: 14em;
+	width: 18em;
+}
+
+.text_in_block {
+	height: 400px;
+	vertical-align: middle;
+	padding-top: 70px;
+}
+
+@media only screen and (max-width: 1000px) { /*768px*/
     body {
         font-size: 87.5%;
     }
+	
+	.grey_block {
+		height: 700px;
+	}
+	
 	.big_self {
 		position:relative;
+		height: 20em;
+		width: 20em;
 	}
 	
 	.small_white_block {
-		float:none;
 		position:relative;
+		margin: 0 15% 0 15%;
+		width: 70%;
+	}
+	
+	.image_text_block {
+		font-size: 20px;
+		color: red;
 	}
 }
