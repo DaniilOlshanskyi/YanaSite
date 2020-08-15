@@ -119,6 +119,17 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	z-index:0;
 }
 
+.white_block {
+	text-align: center;
+	font-family: "Trebuchet";
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.image_text_block {
+	margin-top: 30px;
+}
+
 @media only screen and (max-width: 768px) {
     body {
         font-size: 87.5%;
