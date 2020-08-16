@@ -157,7 +157,7 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 .text_in_block {
 	height: 400px;
 	vertical-align: middle;
-	padding-top: 70px;
+	padding-top: 5vw;
 }
 
 @media only screen and (max-width: 1000px) { /*768px*/
@@ -241,6 +241,8 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	
 	.white_block {
 		font-size: 50px;
+		height: 110vw;
+		overflow: scroll;
 	}
 	
 	.image_text_block {
@@ -254,5 +256,6 @@ a:active {color: white; text-decoration: none;}    /* selected link */
 	
 	.text_in_block {
 		font-size: 50px;
+		padding-top: 0;
 	}
 }
